@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: basic-auth
+  namespace: kube-resource-report-system
+spec:
+  encryptedData:
+    auth: AgBHRILoCEqSl/vokbR5zqIWp1/L+tPkgDxRDbqlT4nTMN5g1yf+Ff2Zq/a7lapGW0K69DeHKZ8yDClVAM4RyXM9WdqvRPAdWWw/B6pK+TS00kKmVEsKe9QlHhRbYF2gigQyKIpzo0yiKEAh9HHOifBk8SIV7CWiUzwZM65Z2LJg1bmJxGuJAmz31q8th+GVIBY04cD6z27fOJ5/Wq51NdX40mji25G7h1/AKcNzD66iFi2fcF8rmkQxbA5dxyPir9ce2EPOHJiz1CAPKZd0Pcl3Ds0nAJeVfM8yJTBPN9HdQO62nZVOGqo4+JhsXWpwOMMYxSSaBNWui7j7C4BBbc7YjSdby8aFElZQsoT5KUf4zlXFNMJkApJTCjVCJJQM3lII41WDwIKj3CoW5JQK82O25Lp0TO4HxfmJ2cA94nkd1HkGQA3O+GhE2FklkobmmhC2ETLBti4kKFgyaBJtccoZDs12a9HJ6JACCM/vZMoJofzABFCi1iDgzcsrn6Xe7xh+QJxxtdC64UEF0alloTgcKzmNKv9wKQDN3pawj2VUBYAx5e7mnH1QVYaumOV+vAkM9UlXuLo9iztXIu5sRcgYtICU4LuItGmPSkrovwlg8Kk1pCuZdfcR96pHBd83UuHnK5+KPy1DZX1ZLkepvCkkDDzl8/YPm6O7nnIRRdJrmzsPQL6k9bsIdi8ZsIvF0Y2btS6pu0vFi3iusLgkkz7MewSolhaxbdYca3aKvM+pd84S6rk7dCAotoIXoQ==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: basic-auth
+      namespace: kube-resource-report-system
+    type: Opaque
+
