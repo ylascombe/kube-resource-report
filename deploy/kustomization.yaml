@@ -7,3 +7,4 @@ resources:
   - configmap.yaml
   - ingress.yaml
   - namespace.yaml
+  - sealed-basic-auth.yaml
