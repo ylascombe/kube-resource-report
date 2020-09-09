@@ -9,7 +9,7 @@ metadata:
   labels:
     app.kubernetes.io/name: kube-resource-report
   name: kube-resource-report
-  namespace: kube-resource-report
+  namespace: kube-resource-report-system
 spec:
   rules:
     - host: kube-resource-report-demo.dev2.fabrique.social.gouv.fr
